@@ -1,0 +1,13 @@
+﻿@page
+@using System.Net
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Let's learn some docker stuff!</h1>
+    
+        <p>HostName: @Dns.GetHostName()</p>
+        <p>Host Address: @Dns.GetHostAddresses(Dns.GetHostName())[0]</p>
+</div>
