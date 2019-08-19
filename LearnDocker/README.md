@@ -7,7 +7,7 @@
 ### SOLUTION
 
 To build image type fallowing command being in main directory of the repository:
-docker build -f LearnDocker\Dockerfile -t learndocker:test .
+>docker build -f LearnDocker\Dockerfile -t learndocker:test .
 
 To run container type:
-docker run -d -p 4480:80 learndocker:test
+>docker run -d -p 4480:80 learndocker:test
