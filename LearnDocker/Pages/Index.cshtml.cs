@@ -19,7 +19,7 @@ namespace LearnDocker.Pages
 
         public void OnGet()
         {
-
+            _logger.LogInformation("Loaded index page!");
         }
     }
 }
